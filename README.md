@@ -1,9 +1,6 @@
 # ihp2-analysis-scripts
 These are the scripts used for data analysis on the IHP2 project.  "analysis_ihp2_all-3-vehicle-analysis.py" creates all plots in verification testing besides mph tests. "analysis_ihp2_2-car_mph-analysis.py" creates all plots for mph tests in verification testing.
 
-# Download required rosbags from google drive link below for IHP2 data
-https://drive.google.com/drive/folders/1Wf2zP4De83JEKdajv1cFFmQ927InJs1J?usp=drive_link
-
 
 # Reindexed rosbags (incase script can't read the bag files)
 rosbag reindex *.bag
@@ -29,4 +26,4 @@ python3.7 <name_of_analysis_script> <path to folder containing IHP2 .bag files>
 ###    ax.set_xlim([-5, 175]) 
 ###    ax.set_ylim([0, 20])
 
-###Change the xlim or ylim values to change the dimensions of the plot.  This should show up multiple times throughout the script.
+Change the xlim or ylim values to change the dimensions of the plot.  This should show up multiple times throughout the script.
