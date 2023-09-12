@@ -21,7 +21,7 @@ rosbag reindex *.bag
    ### python3.7 -m pip install roslz4 --extra-index-url https://rospypi.github.io/simple/
 
 ## In terminal, navigate to the directory that contains this python script and run the following:
-###   python3.7 <name_of_analysis_script> <path to folder containing IHP2 .bag files> 
+python3.7 <name_of_analysis_script> <path to folder containing IHP2 .bag files> 
 
 
 ## To edit the scripts for different x-axis dimensions, search for the lines which contain the info below:
